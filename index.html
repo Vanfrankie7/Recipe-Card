@@ -27,17 +27,6 @@
     />
 
     <title>Frontend Mentor | Recipe page</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <section class="container">
@@ -102,11 +91,35 @@
         </li>
       </ol>
       <h2 class="colored-heading top-line">Nutrition</h2>
-      <p class="nutrition">
+      <p class="nutrition-text">
         The table below shows nutritional values per serving without the
         additional fillings.
       </p>
-      <div class="table-container">
+      <table>
+        <tbody class="table-list">
+          <tr>
+            <td class="nutrition">Calories</td>
+            <td class="nutritional-values">277kcal</td>
+          </tr>
+
+          <tr>
+            <td class="nutrition">Carbs</td>
+            <td class="nutritional-values">0g</td>
+          </tr>
+
+          <tr>
+            <td class="nutrition">Protein</td>
+            <td class="nutritional-values">20g</td>
+          </tr>
+
+          <tr>
+            <td class="nutrition no-border">Fat</td>
+            <td class="nutritional-values no-border">22g</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- <div class="table-container">
         <div class="item">Calories</div>
         <div class="item">277kcal</div>
         <div class="item">Carbs</div>
@@ -115,7 +128,7 @@
         <div class="item">20g</div>
         <div class="item">Fat</div>
         <div class="item">22g</div>
-      </div>
+      </div> -->
     </section>
     <div class="attribution">
       Challenge by
