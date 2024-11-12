@@ -76,12 +76,7 @@ ol {
   margin-bottom: 2.4rem;
 }
 
-ul li::marker {
-  color: hsl(14, 45%, 36%);
-  font-weight: 600;
-}
-
-ol li::marker {
+li::marker {
   color: hsl(14, 45%, 36%);
   font-weight: 600;
 }
@@ -92,43 +87,22 @@ li {
   line-height: 1.5;
 }
 
-.nutrition-text {
-  line-height: 1.6;
-  padding-bottom: 1.2rem;
-}
-
-.table-list {
-  line-height: 1.8;
-}
-
 .nutrition {
-  font-weight: 400;
-  border-bottom: 0.2px solid hsl(30, 10%, 34%);
-  padding-bottom: 1rem;
-}
-.nutritional-values {
-  font-weight: 500;
-  color: hsl(14, 45%, 36%);
-  border-bottom: 0.2px solid hsl(30, 10%, 34%);
-  padding-bottom: 1rem;
+  line-height: 1.6;
+  padding-bottom: 0.6rem;
 }
 
-.no-border {
-  border: none;
-}
-
-/* .table-container {
+.table-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
   padding: 2rem;
 }
 
-
 .item:nth-child(even) {
   font-weight: 500;
   color: hsl(14, 45%, 36%);
-} */
+}
 
 .attribution {
   font-size: 1.1rem;
